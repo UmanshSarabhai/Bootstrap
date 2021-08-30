@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(open_book_2-wallpaper-1920x1080.jpg);
+    background-attachment: fixed;
+}
+
+.logo {
+    border: 100px;
+    width: 80px;
+    height: 60px;
+}
+
+#btn {
+    margin-left: 65%;
+    display: inline;
+    position: relative;
+}
+
+#main_img {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 60%;
+    opacity: 0.8;
+    border-radius: 10%;
+}
+
+#heading {
+    display: inline;
+    font-size: 2em;
+    margin-left: 20px;
+    font-weight: 500;
+    color: azure;
+}
+
+#browse {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-style: inset;
+    border-radius: 5%;
+    text-align: center;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+#browse1 {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-style: inset;
+    border-radius: 5%;
+    text-align: center;
+    height: 60px;
+}
+
+#btn_redirect {
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    display: inline;
+    margin-right: 40px;
+    margin-left: 30px;
+    border-radius: 5%;
+    font-weight: 400;
+}
+
+.btn-primary:hover {
+    background-color: azure;
+    color: black;
+}
+
+.email {
+    padding: 50px;
+    background: aquamarine;
+    opacity: 0.5;
+    border-style: inset;
+    display: inline;
+    margin-left: 280px;
+    margin-bottom: 300px;
+}
+
+.email:hover {
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <!-- place a solid bg color inside container and decrease the opacity-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="stylesheet" href="CustomS.scss" />
+
+    <title>E-Book</title>
+</head>
+
+<body>
+    <div id="main_container" class="container-lg">
+
+        <img src="dd64da585bc57cb05e5fd4d8ce873f57-removebg-preview.png" class="logo" alt="logo">
+
+        <div id="btn" class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button href="#section1" type="button" class="btn btn-primary">Services</button>
+            <button href="#section2" type="button" class="btn btn-primary">About Us</button>
+
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Get Started
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a class="dropdown-item" href="#" onclick="limited()">Sign In</a></li>
+                    <li><a class=" dropdown-item " href="# " onclick="limited()">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div><br>
+
+        <img id="main_img" src="https://images.newindianexpress.com/uploads/user/imagelibrary/2021/3/23/w900X450/knowledge-1052010_1920.jpg?w=400&dpr=2.6" class="img-thumbnail" alt="book">
+
+        <p id="heading" class="text-end">E-Book Management System </p><br>
+        <h3 id="browse">Services</h3><br>
+        <section id="section1">
+
+            <a id="btn_redirect" class="btn btn-primary" href="Search.html" role="button">Search</a>
+            <a id="btn_redirect" class="btn btn-primary" href="Buy.html" role="button">BestSellers</a>
+            <a id="btn_redirect" class="btn btn-primary" href="#" onclick="cart()" role="button">Cart</a>
+            <a id="btn_redirect" class="btn btn-primary" href="#" onclick="offers()" role="button">Offers</a><br>
+        </section>
+        <section id="section2">
+            <h3 id="browse1" style="margin-top: 150px;">About Us</h3>
+            <h4 style="text-align: center;color: white;">"Our Story"</h4><br>
+
+            <p style="text-align: center;font-style: italic;text-shadow: 1px;color: white;">“Just over a year ago, we became fascinated by the idea of discovering the world through someone else's eyes. What if you could see through the eyes of a protester in Ukraine? Or watch the sunrise from a hot air balloon in Cappadocia? It may
+                sound crazy, but we wanted to build the closest thing to teleportation. While there are many ways to discover events and places, we realized there is no better way to experience a place right now than through live video. A picture may
+                be worth a thousand words, but live video can take you someplace and show you around.”</p>
+
+            <img class="img-thumbnail" style="padding: 5%;display: block; margin-left: auto;margin-right: auto" alt="img" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201604/books-647_042716073505.jpg"><br>
+        </section>
+
+        <h3 id="browse1" style="margin-top: 80px;">Get In Touch</h3><br>
+    </div class="end">
+    <button class="email" type="button" onclick="limited()">
+        <i class="bi bi-telephone-fill"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg></button>
+
+    <button class="email" type="button" onclick="limited()">
+        <i class="bi bi-pin-map-fill"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+            <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+          </svg></button>
+
+    <button class="email" type="button" onclick="limited()">
+        <i class="bi bi-envelope"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+          </svg></button></div><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="custom_script.js"></script>
+</body>
+
+</html>

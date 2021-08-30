@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(open_book_2-wallpaper-1920x1080.jpg);
+    background-attachment: fixed;
+}
+
+.logo {
+    border: 100px;
+    width: 80px;
+    height: 60px;
+}
+
+h1 {
+    color: azure;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    color: azure;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: azure;
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    font-style: italic;
+}
